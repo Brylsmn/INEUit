@@ -1,0 +1,26 @@
+section{
+    width: 100%;
+    height: 46.5vw;
+    padding: 50px;
+    
+}
+.cl_white{
+    color: white;
+}
+.img{
+    width: 400px;
+    transition: opacity ls ease-in-out;
+    opacity: .10;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;    
+}
+.container{
+    width: 30%;
+}
+body{
+    font-family: Amaranth;
+}
+
+    

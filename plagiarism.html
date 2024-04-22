@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism Checker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #5096F4;">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: whitesmoke;">INEUit</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: whitesmoke;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: whitesmoke;">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="plagiarism.html">Plagiarism Checker</a></li>
+                            <li><a class="dropdown-item" href="aidetector.html">AI Detector</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: whitesmoke;">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section style="background: url(image/bg.png); background-size: 100% 100%;">
+        <h1 align="center" style="font-size: 500%; color: whitesmoke;">INEUit Plagiarism Checker</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mt-5">
+                    <textarea class="form-control" id="text" rows="20" style="margin: auto; width: 750px;" placeholder="Enter Text to Check for Plagiarism"></textarea>
+                    <br/>   
+                    <input type="file" accept=".pdf, .docx" class="form-control" id="uploadFile" style="width: 230px; margin: auto;"> 
+                </div>
+                <div class="form-group mt-5 text-center">
+                    <button class="btn btn-primary">Detect Plagiarism</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group mt-5">
+                    <textarea class="form-control" id="text" rows="20" style="margin: auto; width: 750px;" readonly></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
